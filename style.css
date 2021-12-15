@@ -1,0 +1,191 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*header-section*/
+.rokib-header navbar-brand{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.rokib-header span{
+    display: inline-block;
+    color: #fff;
+    background-color: orange;
+    height: 43px;
+    width: 40px;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.rokib-menu .nav-link{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*slider-section*/
+.slider-section{
+    background: url(./img/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+content: "";
+height: 100%;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background-color: rgba(0, 0,0, 0.6);
+z-index: -1;
+}
+
+.slider-caption h4{
+margin-bottom: 35px;
+font-size: 30px;
+}
+.slider-caption h2{
+margin-bottom: 30px;
+font-size: 50px;
+}
+
+.slider-section btn{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.slider-section .from-control{
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+
+.about-section{
+    background-color: #f7f9ff;
+}
+
+.about-text-left{
+    margin-top: 120px
+}
+.about-text-left .lead {
+    font-size: 21px;
+    line-height: 41px;
+}
+
+
+.feature-item {
+    height: 300px;
+    box-sizing: 4px;
+    box-shadow: 2.5px 4.3px 30px 0px rgb(64 87 191 / 10%);
+}
+
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+
+.left-text-sec {
+    width: 60%;
+    padding: 15px;
+}
+
+.left-img-sec img {
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+    position: relative;
+    left: -106px;
+}
+
+/* .portfuilo-item{} */
+.portfulio-item a{
+    position: relative;
+    display: block;
+}
+.portfulio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(71, 71, 176 , .6 );
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.portfulio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+.main-section-bg{
+    background-color: #f7f9ff;
+
+}
+
+.pricing-item{
+    background-color: #fff;
+    padding: 50px;
+    
+    box-shadow: 2.5px 4.3px 30px 0px rgb(64 87 191 / 10%);
+    border-radius: 5px;
+}
+/* .pricing-item h1{}
+.pricing-item h5{} */
+.pricing-item ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 30px
+;
+}
+.pricing-item ul li {
+    margin-top: 23px;
+    margin-bottom: 21px;
+    font-size: 24px;
+}
+.pricing-item ul li span {
+    color: #657be0;
+    font-size: 23px;
+    font-weight: bold;
+    width: 40px;
+    display: inline-block;
+}
+
+
+/* .pricing-item-button{}
+.pricing-item-button a{} */
+
+.author-info img{
+    width: 78px;
+}
+.author-info {
+    width: 250px;
+    margin: auto;
+    position: relative;
+    top: 18px;
+}
+
+
+.about-item {
+    margin-top: 90px;
+}
+.about-item .card img {
+    width: 97px;
+    height: auto;
+    margin-top: -55px;
+} 
+
+.contnt-from-div .card{
+    box-shadow: 2.5px 4.3px 30px 0px rgb(64 87 191 / 10%);
+    padding: 40px;
+}
